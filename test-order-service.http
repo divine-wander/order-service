@@ -1,6 +1,15 @@
 # Test the order-service
-
 ### Place an order
+
+### Local order
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+  "product": "Cat Food"
+}
+
+### Azure order
 POST https://order-service-mwg-dfc8ftarcpg3h7cb.swedencentral-01.azurewebsites.net/orders
 Content-Type: application/json
 
