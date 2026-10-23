@@ -13,7 +13,7 @@ Content-Type: application/json
 }
 
 ### Azure order
-POST https://order-service-mwg-dfc8ftarcpg3h7cb.swedencentral-01.azurewebsites.net/orders
+POST https://order-service-group10-bmhuasepabedgbcv.swedencentral-01.azurewebsites.net/orders
 Content-Type: application/json
 
 {
