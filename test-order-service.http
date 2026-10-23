@@ -6,7 +6,10 @@ POST http://localhost:3000/orders
 Content-Type: application/json
 
 {
-  "product": "Cat Food"
+  "product": "Cat Food",
+  "quantity": 2,
+  "price": 34.99,
+  "total": 69.98
 }
 
 ### Azure order
@@ -14,5 +17,8 @@ POST https://order-service-mwg-dfc8ftarcpg3h7cb.swedencentral-01.azurewebsites.n
 Content-Type: application/json
 
 {
-  "product": "Cat Food"
+  "product": "Cat Food",
+  "quantity": 2,
+  "price": 34.99,
+  "total": 69.98
 }
